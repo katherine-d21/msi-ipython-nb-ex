@@ -2,18 +2,22 @@ name: example-environment
 channels:
   - conda-forge
 dependencies:
-  - python=3.9
+  - python=3.10
+  - awkward
   - basemap
   - bokeh
   - cartopy
+  - colorcet
   - cython
   - dask
   - dill
+  - fastparquet
   - geopandas
+  - h5py
   - ipyparallel
   - ipython
   - ipywidgets
-  - matplotlib
+  - matplotlib-base
   - memory_profiler
   - mpi4py
   - networkx
